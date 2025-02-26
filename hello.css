@@ -34,3 +34,34 @@ h2{
     display: flex;
     gap: 20px;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.hero .content h1{
+    color: aliceblue;
+    font-size: 100px;
+    line-height: 90px;
+    margin-bottom: 50px;
+}
+button{
+    background-color: #00ADB5;
+    color: rgb(255, 255, 255);
+    padding: 8px 10px 8px 10px ;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 800;
+}
+.designer{
+    color: #00ADB5;
+    
+}
+.image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
