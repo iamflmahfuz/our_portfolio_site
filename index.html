@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Portfolio Site</title>
     <link rel="stylesheet" href="hello.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=send" />
 </head>
+
 <body>
+    <!-- Start of Hero section -->
     <section>
         <div class="header">
             <div class="logo">
@@ -29,5 +32,72 @@
             </div>
         </div>
     </section>
+    <!-- End of hero section -->
+
+    <!-- Start of About section -->
+     <section class="about">
+        <div class="left-side">
+            <h3 class="title">About <span>Me</span></h3>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Cumque, explicabo quisquam obcaecati, 
+            est nesciunt voluptas officiis repudiandae qui beatae ut dolores maxime reiciendis optio?<span class="read-more-btn"> Read more</span></p>
+        </div>
+        <div class="right-side">
+            <img class="image" src="image\mahfuz\a boy with a table.png" alt="an animated imagee">
+        </div>
+     </section>
+    <!-- End of about section -->
+    <!-- Start of recent workds section -->
+     <section class="recent-work">
+        <h3 class="title">My Recent <span>Works</span></h3>
+        <div class="btn-container">
+            <button class="filter-btn">All</button>
+            <button class="filter-btn">UI</button>
+            <button class="filter-btn">UX</button>
+            <button class="filter-btn">Web Design</button>
+        </div>
+        <div class="image-container">
+            <div class="img-container">
+                <img src="image\mahfuz\user-interface-design-website-te.png" alt="">
+            </div>
+            <div class="img-container">
+                <img src="image\mahfuz\0DlmaNfw1vF9c81-B.png" alt="">
+            </div>
+            <div class="img-container">
+                <img src="image\mahfuz\Music-Mobile-App-UX-and-UI-Kit.png" alt="">
+            </div>
+        </div>
+     </section>
+    <!-- Start of recent workds section -->
+    <!-- Start of contact section -->
+     <section class="contact-us">
+        <div class="left-side">
+            <h3>Got a project in <span>mind!</span></h3>
+            <img src="image\mahfuz\contact-image.png" alt="">
+        </div>
+        <form action="#" class="right-side">
+            <div class="name-email-container">
+                <div class="name">
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Your name">
+                </div>
+                <div class="email">
+                    <label>Your Email</label>
+                    <input type="email" placeholder="Your email">
+                </div>
+            </div>
+            <div class="message">
+                <label>Message</label>
+                <textarea placeholder="Your message"></textarea>
+            </div>
+            <button class="send-btn" type="submit">
+                <span>Send Message</span>
+                <span class="material-symbols-outlined">
+                    send
+                    </span>
+            </button>
+        </form>
+     </section>
+    <!-- End of contact section -->
 </body>
 </html>

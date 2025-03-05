@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
-section{
+
+section {
     background-color: #222831;
 }
-body{
-    font-family: "Poppins", serif;;
+
+body {
+    font-family: "Poppins", serif;
+    ;
 }
-h2{
-    font-family: "Oswald", serif;;
+
+h2 {
+    font-family: "Oswald", serif;
+    ;
 }
-.header{
+
+.header {
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -21,47 +28,229 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
-.logo h2{
+
+.logo h2 {
     color: white;
 }
-.nav-links a{
+
+.nav-links a {
     color: white;
     text-decoration: none;
     font-size: 15px;
     font-weight: 150;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     gap: 20px;
 }
 
+/* hero section start */
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
-.hero .content h1{
+
+.hero .content h1 {
     color: aliceblue;
     font-size: 100px;
     line-height: 90px;
     margin-bottom: 50px;
 }
-button{
+
+button {
     background-color: #00ADB5;
     color: rgb(255, 255, 255);
-    padding: 8px 10px 8px 10px ;
+    padding: 8px 10px 8px 10px;
     border: none;
     cursor: pointer;
     border-radius: 15px;
     font-weight: 800;
 }
-.designer{
+
+.designer {
     color: #00ADB5;
-    
+
 }
+
 .image img {
     width: 400px;
     height: 400px;
     border-radius: 100%;
 }
+
+/* end of hero section */
+
+/* start of about section */
+.about {
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+}
+
+.about .left-side {}
+
+.about .left-side .title {
+    font-size: 70px;
+}
+
+.about .left-side .title span {
+    color: #00ADB5;
+}
+
+.about .left-side .description {
+    font-weight: 100px;
+    width: 50%;
+}
+
+.about .left-side .description .read-more-btn {
+    font-weight: 700;
+}
+
+.about .right-side {
+    background-image: url("image/mahfuz/doodle items.png");
+}
+
+.about .right-side img {
+
+    width: 414px;
+    height: 354px;
+}
+
+/* end of about section */
+
+/* start of recent work */
+.recent-work {
+    background-image: url("image/mahfuz/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 20px;
+    color: white;
+
+}
+
+.recent-work .title {
+    color: white;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.recent-work .title span {
+    color: #00ADB5;
+}
+
+.recent-work .btn-container {
+    margin-bottom: 20px;
+}
+
+.recent-work .btn-container .filter-btn {
+    border-radius: 20px;
+}
+
+.recent-work .image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.recent-work .image-container .img-container {
+    padding: 50px;
+    background-color: #0e2a2c;
+    border-radius: 20px;
+}
+
+.recent-work .img-container img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* end of recent work */
+/* Contact section start */
+
+.contact-us {
+    padding: 50px 20px;
+    color: white;
+    display: flex;
+    gap: 50px;
+}
+
+.contact-us .left-side {}
+
+.contact-us .left-side h3 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.contact-us .left-side h3 span {
+    color: #00ADB5;
+}
+
+.contact-us .left-side img {
+    width: 300px;
+}
+
+.contact-us .right-side {}
+
+.contact-us .right-side .name-email-container {
+    display: flex;
+    gap: 20px
+    ;
+}
+
+.contact-us .right-side .name-email-container .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us .right-side .name-email-container .name label {}
+
+.contact-us .right-side .name-email-container .name input {
+   width: 100%; 
+   background-color: transparent;
+   border: 1px solid white;
+   padding: 8px 5px;
+   border-radius: 3px;
+}
+
+.contact-us .right-side .name-email-container .email {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us .right-side .name-email-container .email label {}
+
+.contact-us .right-side .name-email-container .email input {
+    width: 100%; 
+   background-color: transparent;
+   border: 1px solid white;
+   padding: 8px 5px;
+   border-radius: 3px;
+}
+
+.contact-us .right-side .message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.contact-us .right-side .message label {}
+
+.contact-us .right-side .message textarea{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    padding: 8px 5px;
+}
+
+.contact-us .right-side .message input {}
+
+.contact-us .right-side .send-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Contact section end */
